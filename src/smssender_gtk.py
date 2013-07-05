@@ -1,7 +1,7 @@
 #! /usr/bin/env python
-# -*- Mode: Python; indent-tabs-mode: t; c-basic-offset: 4; tab-width: 4 -*- #!/usr/bin/python
+# -*- Mode: Python; indent-tabs-mode: t; c-basic-offset: 4; tab-width: 4 -*-
 #
-# main.py
+# smssender_gtk.py
 # Copyright (C) 2013 Polonkai Gergely <gergely@polonkai.eu>
 # 
 # smssender-gtk is free software: you can redistribute it and/or modify it
