@@ -53,8 +53,16 @@ class GUI:
 		rpc = json.dumps({"id": 1, "method": "login", "params": [ username, password ] })
 
 		headers = {"Content-Type": "application/json", "Accept": "application/json", "Content-Encoding": "utf-8"}
-		conn = httplib.HTTPConnection("oogway.brokernet-group.local", 443)
+		conn = httplib.HTTPConnection("localhost", 80)
 		conn.request("POST", url, rpc, headers)
+		response = json.loads(conn.getresponse().read())
+
+		token = response['result']
+
+		rpc = json.dumps({"id": 2, "method": "send", "params": [token, rcpt, message, []]})
+
+		conn.request("POST", url, rpc, headers)
+		print conn.getresponse().read()
 def main():
 	app = GUI()
 	Gtk.main()
