@@ -34,7 +34,6 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="invisible_char">●</property>
-                <property name="text" translatable="yes">https://oogway.brokernet-group.local/sms/json_sms.php</property>
               </object>
               <packing>
                 <property name="expand">True</property>
@@ -58,7 +57,6 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="invisible_char">●</property>
-                <property name="text" translatable="yes">polesz</property>
               </object>
               <packing>
                 <property name="expand">True</property>
@@ -72,7 +70,6 @@
                 <property name="can_focus">True</property>
                 <property name="visibility">False</property>
                 <property name="invisible_char">●</property>
-                <property name="text" translatable="yes">khorne</property>
               </object>
               <packing>
                 <property name="expand">True</property>
@@ -108,7 +105,6 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="invisible_char">●</property>
-                <property name="text" translatable="yes">+36307375706</property>
               </object>
               <packing>
                 <property name="expand">True</property>
